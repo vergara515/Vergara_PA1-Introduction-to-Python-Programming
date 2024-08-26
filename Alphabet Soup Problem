@@ -1,4 +1,3 @@
-Alphabet Soup Problem
 def alphabet_soup(input): #defines function alphabet_soup
     sorted_string = ''.join(sorted(input)) #sorts characters in string and joins them back together
     return sorted_string #returns sorted string
