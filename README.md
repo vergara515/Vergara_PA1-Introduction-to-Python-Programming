@@ -15,7 +15,7 @@ Example: print(alphabet_soup("hello"))
 Output: ehllo
 
 # Emoticon Problem
-Function: emotify(input)
+Function: emotify(input), emoticon_dict = {}, and sentence = input.split()
 
 Description: The problem used 'def' to define the function emotify(input), which contains an emoticon dictionary. 'input' would be the argument passed whenever the function is called. The dictionary was defined using emoticon_dict = {}, which contains the strings and their corresponding emoticon. A split function was also used by using sentence = input.split(), which splits the words into the given sentences and, 
 
