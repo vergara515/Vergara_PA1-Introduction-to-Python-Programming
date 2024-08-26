@@ -1,0 +1,8 @@
+writeyourcodehere = [1, 2, 3, 4, 5, 6] #list of the numbers to be unpacked
+first, *middle, last = writeyourcodehere #using function unpacking
+
+#prints output
+print("first:", first, "  middle:", middle, "  last:", last)
+
+#output
+first: 1   middle: [2, 3, 4, 5]   last: 6
