@@ -1,0 +1,20 @@
+Emoticon Problem
+def emotify(input): #defines function emotify
+    emoticon_dict = {"smile": ":)", "grin": ":D", "sad": ":((", "mad": ">:("} #dictionary for string and its corresponding emoticon
+
+    sentence = input.split() #split the words in the given sentence
+    emotified = ' '.join(emoticon_dict.get(word, word) for word in sentence) #copies word for word the given sentence, replaces keywords in dictionary with its corresponding emoticon, and joins them together
+
+    return emotified #returns output
+
+#calls function emotify and prints them
+print(emotify("Make me smile"))
+print(emotify("I am mad"))
+print(emotify("Do not be sad anymore"))
+print(emotify("You have a nice grin"))
+
+#output
+Make me :)
+I am >:(
+Do not be :(( anymore
+You have a nice :D
