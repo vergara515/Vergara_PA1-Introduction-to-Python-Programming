@@ -1,4 +1,3 @@
-Emoticon Problem
 def emotify(input): #defines function emotify
     emoticon_dict = {"smile": ":)", "grin": ":D", "sad": ":((", "mad": ">:("} #dictionary for string and its corresponding emoticon
 
